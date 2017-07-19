@@ -10,7 +10,7 @@ const extractCss = new ExtractTextPlugin({ filename: entryName + '.css', allChun
 module.exports = {
     target: 'web',
     context: __dirname,
-    entry: path.join(__dirname, "components", "index.js"),
+    entry: path.join(__dirname, "packages", "react-toolbox", "src", "components", "index.js"),
     externals: {
         "react": "React",
         "react-dom": "ReactDOM",
